@@ -1,0 +1,6 @@
+npm init -y
+npm i express
+npm i express-handlebars
+index.js
+nodemon yo lo tengo instalado
+Puedo corrobarar las instalaciones en package.json

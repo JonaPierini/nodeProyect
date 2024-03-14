@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola MUNDO</h1>
+   
+
+
+    <div id="caja">
+
+    </div>
+
+    <!-- Include Handlebars from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
+    <script type="text/x-handlebars-template" id="templete">
+        <h2>{{titulo}} - {{nombre}}</h2>
+    </script>
+
+    <script>
+        const scriptHTML = document.getElementById('templete').innerHTML;
+
+        let templete = Handlebars.compile(scriptHTML);
+
+        let html = templete({
+            titulo: 'Titulo Nuevo',
+            nombre: 'Pepe'
+        });
+
+        console.log(html);
+
+        const caja = document.getElementById('caja') 
+        caja.innerHTML = html
+    </script>
+</body>
+</html>
+
+ 

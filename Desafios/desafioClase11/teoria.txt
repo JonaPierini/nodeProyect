@@ -1,0 +1,10 @@
+WEBSOCKETS es peticion y respuesta en tiempo real. Es decir la relacion cliente/servidor es inmediata. 
+Un ejemplo las notificaciones que te llegan sin necesitad de que uno lo pida. 
+. Para esto se utiliza un protocolo de red basado en TCP que establce como deben intercambiarse datos entre redes. Es un protocolo que intercambia
+informacion de un punto a otro punto. 
+. Una vez que le hiciste la pregunta (req) las response son automatica 
+. Se utiliza con una dependencia socket.io que te permite crear una aplicacion con Websocket
+- npm init -y
+- npm i express
+- npm socket.io
+- index.js

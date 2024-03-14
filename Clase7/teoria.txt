@@ -1,0 +1,25 @@
+EXPRESS AVANZADO
+Servidores que cumplan con protocolos => Lo vamos a ver por el protocolo HTTP (es para que los requerimientos viajen)
+HTTP => No ayuda a intercambiar información entre el cliente (browser) y el Servidores. Se basa en un esquema de petición-respuesta. HTTP establece
+varios tipos de peticiones, siendo las principales => POST, GET, PUT, DELETE
+
+GET => Devuelve informacion desde el servidor
+POST => Recibe informacion y la guarda recursos en el servidor
+PUT => Actualiza datos en el servidor
+DELETE => Elimina datos en el servidor
+
+HTTP tiene codigo de estados => Status Code
+1) 1xx => Warning 
+2) 2xx => Exitoso
+3) 3xx => Redireccionn (falta algo)
+4) 4xx => Error del Cliente. Ejemplo ERROR 404 (no found)
+5) 5xx => Error del Servidor
+
+Una API es un conjunto de reglas y especificaciones que describen la manera en que un sistema puee comunicarse con otros
+Para que el API funcione con cualquier CLIENTE tiene que tener la arquitectura REST (que seria con los protocolos HTTP y la utilizacion de sus estados)
+
+API REST => LA UNION DE UN API, REST y la utilizacion del protocolo HTTP se conoce con API REST
+API REST FULL => Es lo mismo pero mucho mas grande
+
+El servidor lo creamos con node.js por medio de la libreria EXPRESS
+

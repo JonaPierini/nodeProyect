@@ -1,0 +1,17 @@
+    CREAMOS SERVIDORES => con Express => es lo mismo que el del protocolo http
+    Cliente (reques) => Server => (response) => Cliente
+    El server escucha al cliente atravez de puertos que son números de cuatro cifras
+    
+    PARA LEVANTARLO y CREAR UN ARCHIVO NODE.JS:
+1) NPM INIT => Te hace unas preguntas. Si no las quiere responder (-y) => Me crea el package.json (toda la info de mi proy)
+2) CREO EL ARCHIVO INDEX.JS
+    PD. Esos son los pasos. Primero el NPM Init y despues creo el index.js
+
+INSTALAMOS UN MODULO DE NPM PARA QUE LOS CAMBIOS SEAN EN LINEA (SERIA CON UN GO LIVE) => npm i -g nodemon => para usarlo => En la terminal nodemon (nombre del archivo.js)
+
+Cuando instalo dependencias (ejemplo moment.js o nodemon.js) => para saber que se instalaron voy a package.json y ahi en dependencias figura
+
+Para evitar escribir nodemon index.js puedo ir al package.json donde dice scripts, abajo de test => pongo "start": "nodemon index.js" y en la terminal
+en vez de poner nodemon index.js pongo npm start
+
+3) npm install express => como me fijo que esta bien porque en package.json (dependencias) esta express

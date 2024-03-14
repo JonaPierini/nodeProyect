@@ -1,0 +1,2 @@
+los motores de plantilla => Son las vistas dentro del back => Es como un front dentro del BACK
+Nosotros vimos HANDLEBARS

@@ -1,0 +1,5 @@
+MULTER => Nos ayuda a cargar archivo 
+npm init -y
+npm i express
+npm i multer
+index.js
